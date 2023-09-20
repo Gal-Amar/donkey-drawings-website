@@ -1,0 +1,39 @@
+nav {
+  display: flex;
+  padding: 20px 0 10px;
+  gap: 1.5rem;
+  align-items: center;
+  max-width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid var(--color-primary);
+}
+
+nav h1{
+  position: absolute;
+  font-size: 2em;
+  left: 15%;
+  color: var(--color-primary);
+}
+
+.links {
+  margin: 0 1rem 0;
+}
+
+.link {
+  transition: var(--transition);
+  cursor: pointer;
+  color: var(--color-primary);
+  padding: 0.3rem 1.2rem;
+  border-radius: 1.5rem;
+  font-size: 1.5em;
+  font-weight: 500;
+
+}
+
+.link:hover {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+
+
